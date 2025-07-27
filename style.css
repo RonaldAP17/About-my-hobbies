@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "Permanent Marker";
+  src: url(./fonts/PermanentMarker.ttf) format("truetype"),
+    url(./fonts/PermanentMarker.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./fonts/Inter.ttf) format("truetype");
+}
+
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* Layout */
+.page {
+  display: grid;
+  grid-template-rows: 45vh 2fr 200px;
+  font-family: "Inter", sans-serif;
+  background: #eeeeee;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  background-image: url("./images/Tripleten-cover.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  max-width: 1240px;
+  margin: auto;
+  font-family: "Permanent Marker", cursive;
+  font-size: 8.75rem;
+  line-height: 8.75rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Content & Cards */
+.content {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 790px;
+  margin: 100px auto 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  min-height: 550px;
+  padding: 45px 45px 70px;
+  margin: 0 30px 60px 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+.card-description {
+  font-size: 1rem;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 200px;
+  padding: 20px;
+  background-color: #000;
+  color: #ffffff;
+  font-size: 1.5rem;
+  bottom: 0;
+}
