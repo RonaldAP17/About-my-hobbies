@@ -1,2 +1,2 @@
-# Personal-Portfolio
-A personal portfolio showcasing my experience and projects in web development, with a focus on modern JavaScript and React concepts. This project serves as a live representation of my skills and a continuous learning log, documenting my journey in front-end development.
+# My Hobbies
+Simple "About Me" webpage practising with simple HTML/CSS concepts talking about my hobbies. This projects serves as a live practice of my basic skills and a continuous learning log, documenting my journey in front-end development.
